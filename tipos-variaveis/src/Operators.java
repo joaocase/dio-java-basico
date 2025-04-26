@@ -77,7 +77,7 @@ public class Operators {
         if (cond1 && cond2) {
             System.out.println("The conditions are True");
         }
-        if ((1 <= 2) || cond2) {
+        if (cond1 || cond2) {
             System.out.println("One of the conditions is True");
         }
         System.out.println("The end");
